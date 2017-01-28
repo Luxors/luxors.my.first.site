@@ -185,8 +185,8 @@ a {
 	width: 100%;
 	padding-top: 220px;
 	padding-bottom: 200px;
-	background-color: rgb(26, 26, 26);
-	background-image: url(img/instagramm.jpg);
+	background-image: -webkit-linear-gradient(rgba(26, 26, 26, 0.78), rgba(26, 26, 26, 0.78)), url(img/instagramm.jpg);
+	background-image: linear-gradient(rgba(26, 26, 26, 0.78), rgba(26, 26, 26, 0.78)), url(img/instagramm.jpg);
 	background-position: left top;
 	background-size: cover;
 }
