@@ -105,8 +105,13 @@ a {
 }
 .slider-item__lead {
 	position: absolute;
-	top: 42%;
-	margin-left: 31%;
+	width: 50%;
+	height: 15%;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	text-align: center;
 }
 .slider-item__lead h1 {
