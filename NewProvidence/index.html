@@ -26,9 +26,39 @@
 	<body>
 		<div class="wrapper">
 			<div class="site-header">
+			    <div class="mobilePanel" id="mobileNav">
+					<header class="mobilePanel-head">
+			        <a href="" class="mobilePanel-logo"><img src="img/logo-mobile.png" alt=""></a>
+			        <button class="mobilePanel-btn" id="mobileBtnClose"><span></span></button>
+					</header>
+			        <ul class="mobilePanel-nav">
+			            <li class="mobilePanel-nav__item"><a href="">tour</a></li>
+			            <li class="mobilePanel-nav__item"><a href="">features</a></li>
+			            <li class="mobilePanel-nav__item"><a href="">prising</a></li>
+			            <li class="mobilePanel-nav__item"><a href="">help</a></li>
+			            <li class="mobilePanel-nav__item"><a href="">contacts</a></li>
+			            <li class="mobilePanel-nav__item"><a class="getapp" href=""><img src="img/apple-logo.png" alt="">get app</a></li>
+			        </ul>
+			        <footer class="mobilePanel-footer">
+			            <div class="mobilePanel-footer__info">
+			                <p>Made with love by<a href="#">Craft Work</a></p>
+			                <p>Developed by<a href="">Rui Bogas</a></p>
+			            </div>
+			            <ul class="mobilePanel-cosials">
+			                <li class="mobilePanel-cosials__item"><a href=""><img src="img/tw.png" alt=""></a></li>
+			                <li class="mobilePanel-cosials__item"><a href=""><img src="img/fb.png" alt=""></a></li>
+			                <li class="mobilePanel-cosials__item"><a href=""><img src="img/gl.png" alt=""></a></li>
+			                <li class="mobilePanel-cosials__item"><a href=""><img src="img/tb.png" alt=""></a></li>
+			                <li class="mobilePanel-cosials__item"><a href=""><img src="img/pt.png" alt=""></a></li>
+			                <li class="mobilePanel-cosials__item"><a href=""><img src="img/li.png" alt=""></a></li>
+			            </ul>
+			        </footer>
+			    </div>
 				<div class="top-panel">
 					<nav class="siteNav">
-						<button class="nav-btn"></button>
+						<button class="nav-btn" id="mobileBtnOpen">
+							<span class="nav-btn__lines"></span>
+						</button>
 						<ul class="siteNav-list">
 							<li class="siteNav-list__item"><a href="">tour</a></li>
 							<li class="siteNav-list__item"><a href="">features</a></li>
@@ -202,12 +232,12 @@
 			<footer class="site-footer">
 				<section class="site-footer__section" >
 					<div class="site-footer__promo">
-						<a href="#"><img src="img/logo.svg" alt="" class="site-footer__logo"></a>
+						<a class="site-footer__logo" href="#"><img src="img/logo.svg" alt="" ></a>
 						<p class="site-footer__text">It was some time before he obtained any<br> answer, and the reply, when made, was<br> unpropitious.</p>
 						<a href="" class="site-footer__load"> <img src="img/app-store-download.png" alt=""> </a>
 						<ul class="site-footer__social">
 							<li class="site-footer__social-item"><a href="" class="site-footer__social-link"><img src="img/tw.png" alt=""></a></li>
-							<li class="site-footer__social-item"><a href="" class="site-footer__social-link"><img src="img/fb.png" alt=""></a></li>
+							<li class="site-footer__social-item"><a href=""   class="site-footer__social-link"><img src="img/fb.png" alt=""></a></li>
 							<li class="site-footer__social-item"><a href="" class="site-footer__social-link"><img src="img/gl.png" alt=""></a></li>
 							<li class="site-footer__social-item"><a href="" class="site-footer__social-link"><img src="img/tb.png" alt=""></a></li>
 							<li class="site-footer__social-item"><a href="" class="site-footer__social-link"><img src="img/pt.png" alt=""></a></li>
