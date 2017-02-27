@@ -497,7 +497,7 @@ ul {
   position: relative;
   width: 100%;
   padding: 15em 0 30em 0;
-  background: url("img/header_bg.png") center center/cover no-repeat;
+  background: url("../img/header_bg.png") center center/cover no-repeat;
   overflow: hidden
 }
 
