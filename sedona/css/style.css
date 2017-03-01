@@ -380,7 +380,7 @@ ul {
 .poster {
   margin-bottom: 40px;
   padding: 90px 0 85px;
-  background-image: url(/img/poster-triangle-1x.svg), url(img/poster-1x.svg);
+  background-image: url(../img/poster-triangle-1x.svg), url(../img/poster-1x.svg);
   background-position: bottom, top;
   background-size: contain, cover;
   background-repeat: no-repeat, no-repeat
@@ -397,7 +397,7 @@ ul {
 
 @media screen and (min-width:480px) {
   .poster {
-    background: url(/img/poster-triangle-2x.svg), url(/img/poster-2x.svg) no-repeat top/cover;
+    background: url(../img/poster-triangle-2x.svg), url(../img/poster-2x.svg) no-repeat top/cover;
     background-position: bottom, top;
     background-size: contain, cover;
     background-repeat: no-repeat, no-repeat
@@ -406,7 +406,7 @@ ul {
 
 @media screen and (min-width:768px) {
   .poster {
-    background: url(/img/poster-triangle-3x.svg), url(/img/poster-3x.svg) no-repeat top/cover;
+    background: url(../img/poster-triangle-3x.svg), url(../img/poster-3x.svg) no-repeat top/cover;
     background-position: bottom, top;
     background-size: contain, cover;
     background-repeat: no-repeat, no-repeat
@@ -475,7 +475,7 @@ ul {
 
 .city .features-content-box {
   padding-top: 20%;
-  background: #81b3d2 url(/img/triangle.svg) 0 0/contain no-repeat
+  background: #81b3d2 url(../img/triangle.svg) 0 0/contain no-repeat
 }
 
 .features-content {
