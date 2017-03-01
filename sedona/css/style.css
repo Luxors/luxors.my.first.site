@@ -573,8 +573,11 @@ ul {
   .city .features-content {
     width: 280px
   }
-  .features-content__title {
-    padding: 10px 35px
+  .city .features-content__title {
+    padding: 10px 29px
+  }
+  .devils-bridge .features-content__title {
+    padding: 10px 11px
   }
 }
 
