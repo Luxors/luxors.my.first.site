@@ -12,8 +12,8 @@ li {
 	list-style-type: none;
 }
 .header {
-	margin-bottom: 3rem;
-	min-heigth: 100vh;
+/* 	margin-bottom: 3rem; */
+	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -43,10 +43,12 @@ li {
 }
 .logo {
 	display: block;
-	box-sizing: content-box;
+/* 	box-sizing: content-box;
 	width: 9.375rem;
 	margin: 0 auto;
-	padding: 1rem 0;
+	padding: 1rem 0; */
+	width: 100%;
+	height: auto;
 }
 .btn {
 	display: inline-block;
