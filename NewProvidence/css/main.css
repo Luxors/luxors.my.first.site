@@ -361,7 +361,8 @@ ul {
   height: 122px;
   background-color: #F9F9F9;
   z-index: 10;
-  line-height: 1
+  line-height: 1;
+  transition: height .1s ease-out;
 }
 
 .top-panel__wrapper {
